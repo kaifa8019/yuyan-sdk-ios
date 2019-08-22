@@ -54,6 +54,8 @@ YuyanOneClickLoginHandler
 - (void)getLoginTokenWithModel:(YuyanCustomModel *)model complete:(void(^)( NSString *token, NSError * _Nullable error))complete
 ```
 
+在调用方法前, 需要指定`viewController`
+
 开启登录页, 自定义样式在`YuyanCustomModel`中配置
 
 成功获取token后, 需要调用对应VC的`dismissViewControllerAnimated`退出一键登录视图
