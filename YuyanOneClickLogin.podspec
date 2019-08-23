@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                = 'YuyanOneClickLogin'
-  s.version             = '1.0.2'
+  s.version             = '1.0.3'
   s.summary             = 'YuyanOneClickLogin for iOS'
   s.homepage            = 'https://www.xxxxxxx.com/'
   s.license             = { :type => 'Commercial', :text => '艾狄墨搏' }
@@ -9,11 +9,14 @@ Pod::Spec.new do |s|
   s.source              = { :git => 'https://github.com/kaifa8019/yuyan-sdk-ios.git', :tag => s.version.to_s }
   s.requires_arc        = true
 
-  s.vendored_frameworks = ['YuyanOneClickLogin.framework', 'ATAuthSDK.framework']
+  s.vendored_frameworks = ['YuyanOneClickLogin.framework']
 
   s.resource_bundles = {
     'YuyanOneClickLogin' => ['Resource/**/*.bundle'],
   }
+  
+  s.frameworks = ["UIKit"]
+  s.libraries = ["c++"]
   
   s.dependency 'ADMobGenNetwork'
   s.dependency 'ADMobGenDeviceInfo'

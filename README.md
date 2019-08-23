@@ -65,3 +65,14 @@ error.code
  - 6669, 点击`使用其他登录方式`按钮, 需要手动管理dismiss
  - 6667, 点击了返回按钮, 自动dismiss
  - 其他状态码, 登录失败
+
+# 3 常见问题
+
+```
+移动卡返回【103101,错误的请求签名】
+```
+
+执行下[NSBundle mainBundle].localizedInfoDictionary语句，如果不为nil，则有国际本地化逻辑，这样的情况，目前有两种方法修复：
+
+1. 如果.strings文件内容为空且无用，删除即可；
+2. 如果.strings文件必须要使用，则需要在主工程中所有.strings文件中增加CFBundleIdentifier = "bundleId名称"；
