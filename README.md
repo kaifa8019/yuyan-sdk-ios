@@ -76,7 +76,7 @@ error.code == 4444 | ❌ | 运营商端发生异常
 
 # 3 登录页定制
 
-![login](info.png)
+![login](https://raw.githubusercontent.com/kaifa8019/yuyan-sdk-ios/master/info.png)
 
 通过设置`YuyanCustomModel`相关属性即可定制登录页
 
