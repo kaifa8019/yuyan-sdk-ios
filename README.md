@@ -40,8 +40,8 @@ pod 'YuyanOneClickLogin'
 
 # 2 主要功能
 
-- [一键登录](Document/一键登录.md)
-- [本机号码校验](Document/本机号码校验.md)
+- [一键登录](https://github.com/kaifa8019/yuyan-sdk-ios/blob/master/Document/一键登录.md)
+- [本机号码校验](https://github.com/kaifa8019/yuyan-sdk-ios/blob/master/Document/本机号码校验.md)
 
 # 3 常见问题
 
