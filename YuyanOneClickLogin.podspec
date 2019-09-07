@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                = 'YuyanOneClickLogin'
-  s.version             = '1.1.0'
+  s.version             = '1.1.1'
   s.summary             = 'YuyanOneClickLogin for iOS'
   s.homepage            = 'https://www.xxxxxxx.com/'
   s.license             = { :type => 'Commercial', :text => '艾狄墨搏' }
