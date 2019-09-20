@@ -39,7 +39,7 @@
 // 登录
 @property (nonatomic, strong) NSString *loginBtnTitle;  // loginBtn标题
 @property (nonatomic, strong) UIColor *loginBtnTitleColor;  // loginBtn文本颜色
-@property (nonatomic,strong) NSArray<UIImage *> *loginBtnBgImgs; //loginBtn背景图片组，高度45.0pt，@[激活状态的图片,失效状态的图片,高亮状态的图片]
+@property (nonatomic,strong) NSArray<UIImage *> *loginBtnBgImgs; //loginBtn背景图片组，高度50.0pt，@[激活状态的图片,失效状态的图片,高亮状态的图片]
 @property (nonatomic, assign) CGFloat loginBtnTopOffetY; // loginBtn相对导航栏底部的Y轴距离
 
 // 协议
