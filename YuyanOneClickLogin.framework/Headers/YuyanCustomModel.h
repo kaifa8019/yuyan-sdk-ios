@@ -11,8 +11,8 @@
 
 @interface YuyanCustomModel : NSObject
 
-/// 请使用 [YuyanBaseConfig sdkVersion]
-@property (nonatomic, assign) NSTimeInterval timeout NS_DEPRECATED_IOS(2_0,7_0, "请使用 [YuyanBaseConfig sdkVersion]");
+/// 请使用 [YuyanBaseConfig timeoutLimit]
+@property (nonatomic, assign) NSTimeInterval timeout NS_DEPRECATED_IOS(2_0,7_0, "请使用 [YuyanBaseConfig timeoutLimit]");
 
 // 导航栏
 @property (nonatomic, strong) UIColor *navColor; // 导航栏主题色, 默认[UIColor whiteColor]
@@ -36,8 +36,6 @@
 @property (nonatomic, strong) UIColor *numberColor;
 @property (nonatomic, strong) UIFont *numberFont;
 @property (nonatomic, assign) CGFloat numberTopOffetY; // number相对导航栏底部的Y轴距离
-
-@property (nonatomic, assign) CGFloat numberSize NS_DEPRECATED_IOS(2_0, 7_0, "请使用 numberFont");
 
 // 登录
 @property (nonatomic, strong) NSAttributedString *loginBtnText; // loginBtn文案
