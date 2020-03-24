@@ -81,8 +81,6 @@ typedef NS_ENUM(NSUInteger, YuyanPresentationDirection){
 /// 登录按钮设置
 @property (nonatomic, strong) YuyanCustomLoginBtnModel *loginBtn;
 
-@property (nonatomic, strong) NSAttributedString *loginBtnText DEPRECATED_MSG_ATTRIBUTE("请使用 .loginBtn.text");
-@property (nonatomic,strong) NSArray<UIImage *> *loginBtnBgImgs DEPRECATED_MSG_ATTRIBUTE("请使用 .loginBtn.bgImgs");
 @property (nonatomic, assign) CGFloat loginBtnTopOffetY DEPRECATED_MSG_ATTRIBUTE("请使用 .loginBtn.frameBlock");
 @property (nonatomic, assign) CGFloat loginBtnHeight DEPRECATED_MSG_ATTRIBUTE("请使用 .loginBtn.frameBlock");
 @property (nonatomic, assign) CGFloat loginBtnLRPadding DEPRECATED_MSG_ATTRIBUTE("请使用 .loginBtn.frameBlock");

@@ -33,6 +33,10 @@ NS_ASSUME_NONNULL_BEGIN
 /// 手动隐藏一键登录获取登录Token之后的等待动画，默认为自动隐藏，当设置 autoHideLoginLoading = NO 时, 可调用该方法手动隐藏
 - (void)hideLoginLoading;
 
+#pragma mark - 点击事件
+/// 点击登录按钮, isActive: 是否激活
+@property (nonatomic, copy) void (^didClick)(BOOL isActive);
+
 @end
 
 NS_ASSUME_NONNULL_END

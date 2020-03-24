@@ -15,7 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 /// checkBox图片组，[uncheckedImg,checkedImg]
 @property (nonatomic, copy) NSArray<UIImage *> *images;
 
-/// checkBox是否勾选，默认NO
+/// checkBox是否勾选，默认NO，点击后刷新
 @property (nonatomic, assign) BOOL isChecked;
 
 /// checkBox是否隐藏，默认NO
