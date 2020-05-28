@@ -25,7 +25,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign) BOOL autoHideLoginLoading;
 
 /**
- *  构建登录按钮的frame，view布局或布局发生变化时调用，不实现则按默认处理
+ *  构建登录按钮的frame, view布局或布局发生变化时调用, y坐标基准线为导航栏底部, 不实现则按默认处理
  *  注：不能超出父视图 content view，height不能小于40，width不能小于父视图宽度的一半
  */
 @property (nonatomic, copy) CGRect(^frameBlock)(CGSize screenSize, CGSize superViewSize, CGRect frame);
