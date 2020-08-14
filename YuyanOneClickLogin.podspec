@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
   s.name                = 'YuyanOneClickLogin'
-  s.version             = '1.2.5'
+  s.version             = '1.2.6'
   s.summary             = 'YuyanOneClickLogin for iOS'
   s.homepage            = 'https://github.com/kaifa8019/yuyan-sdk-ios'
   s.license             = { :type => 'Commercial', :text => '艾狄墨搏' }
   s.author              = { 'YuyanOneClickLogin Team' => 'tomato@admobile.top' }
-  s.platform            = :ios, '8.0'
+  s.platform            = :ios, '9.0'
   s.source              = { :git => 'https://github.com/kaifa8019/yuyan-sdk-ios.git', :tag => s.version.to_s }
   s.requires_arc        = true
 
