@@ -71,8 +71,6 @@ typedef NS_ENUM(NSUInteger, YuyanPresentationDirection){
  */
 @property (nonatomic, copy) CGRect(^numberFrameBlock)(CGSize screenSize, CGSize superViewSize, CGRect frame);
 
-@property (nonatomic, assign) CGFloat numberTopOffetY DEPRECATED_MSG_ATTRIBUTE("请使用 .numberFrameBlock");
-
 #pragma mark - 登录按钮设置
 /// 登录按钮设置
 @property (nonatomic, strong) YuyanCustomLoginBtnModel *loginBtn;
